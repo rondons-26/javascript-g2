@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel - Suscríbete</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <main class="container">
+        <h2>Suscríbete</h2>
+
+        <form action="../index.html" method="get" class="marvel-form">
+            <div class="form-item">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nomnbre" name="nombre" placeholder="Ingrese su nombre" required>
+            </div>
+
+            <div class="form-item">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@ejemplo.com" required>
+            </div>
+
+            <div class="form-item">
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" min="18" max="99" required>
+            </div>
+
+            <div class="form-item">
+                <label for="pais">País:</label>
+                <select name="pais" id="pais" required>
+                    <option value="">Seleccione su país</option>
+                    <option value="1">Argentina</option>
+                    <option value="2">Brasil</option>
+                    <option value="3">Chile</option>
+                    <option value="4">México</option>
+                </select>
+            </div>
+
+            <div class="form-item">
+                <label">Género:</label>
+                    <div class="radio-options">
+                        <input type="radio" id="genero-m" value="masculino" required>
+                        <label for="genero-m">Masculino</label>
+                        <input type="radio" id="genero-f" value="femenino" required>
+                        <label for="genero-m">Femenino</label>
+                    </div>
+            </div>
+
+            <div class="form-item">
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" rows="4" placeholder="Escriba su mensaje aquí..."></textarea>
+            </div>
+
+            <div class="form-buttons">
+                <button type="submit" class="btn btn-submit">Enviar</button>
+                <button type="reset" class="btn btn-sreset">Limpiar</button>
+            </div>
+        </form>
+
+        <br>
+
+        <div class="navigation-back">
+            <a href="../index.html" class="btn btn-back">← Volver al Inicio</a>
+        </div>
+    </main>
+</body>
+
+</html>
