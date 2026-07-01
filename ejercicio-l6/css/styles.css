@@ -1,0 +1,38 @@
+/* ESTILO GLOBAL */
+body {
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 0;
+}
+
+.wallet-card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+    padding: 24px;
+}
+
+.wallet-title {
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.btn-custom {
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.contact-selected {
+    background-color: #e8f0fe !important;
+    border-color: #1a73e8 !important;
+}
